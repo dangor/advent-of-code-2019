@@ -12,3 +12,4 @@ def run(module, p, input):
   print(f"(t={end - start})")
 
 run(day01, p1, "inputs/day01.txt")
+run(day01, p2, "inputs/day01.txt")
