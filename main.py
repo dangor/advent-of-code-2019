@@ -1,5 +1,5 @@
 import time
-import day01, day02
+import day01, day02, day03
 
 p1, p2 = 'p1', 'p2'
 def run(module, p, input):
@@ -17,3 +17,6 @@ run(day01, p2, "inputs/day01.txt")
 day02.test()
 run(day02, p1, "inputs/day02.txt")
 run(day02, p2, "inputs/day02.txt")
+
+day03.test()
+run(day03, p1, "inputs/day03.txt")
