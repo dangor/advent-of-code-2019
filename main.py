@@ -20,3 +20,4 @@ run(day02, p2, "inputs/day02.txt")
 
 day03.test()
 run(day03, p1, "inputs/day03.txt")
+run(day03, p2, "inputs/day03.txt")
