@@ -12,6 +12,27 @@ def p1(input):
 
   print(ints[0])
 
+def p2(input):
+  file = open(input)
+  ints = list(map(int, file.readlines()[0].split(',')))
+  file.close()
+
+  original = ints.copy()
+
+  for i in range(100):
+    for j in range(100):
+      ints = original.copy()
+      ints[1] = i
+      ints[2] = j
+
+      run_intcode(ints)
+
+      if ints[0] == 19690720:
+        print(100 * i + j)
+        return
+  
+  raise
+
 def run_intcode(ints):
   cur = 0
   while ints[cur] != 99:

@@ -13,5 +13,7 @@ def run(module, p, input):
 
 run(day01, p1, "inputs/day01.txt")
 run(day01, p2, "inputs/day01.txt")
+
 day02.test()
 run(day02, p1, "inputs/day02.txt")
+run(day02, p2, "inputs/day02.txt")
