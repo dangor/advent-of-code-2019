@@ -24,3 +24,4 @@ run(day03, p2, "inputs/day03.txt")
 
 day04.test()
 run(day04, p1, [178416, 676461])
+run(day04, p2, [178416, 676461])
